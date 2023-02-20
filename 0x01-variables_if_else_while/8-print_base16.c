@@ -1,5 +1,4 @@
-#include <stdio.h>
-/**
+
  * main - program that prints all the numbers of base 16 in lowercase
  *
  * Return: 0 (Success)
@@ -8,7 +7,7 @@ int main(void)
 {
 	char i;
 
-	for (i = 0; i < 10; i++)
+	for (i = '0'; i < '10'; i++)
 	{
 		putchar(i);
 	}
