@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - Entry point
- * Description: Program that will assign numbers to varible n
- * each time it is executed.
+ * main - Entry point
+ *
  * Return: 0 (Success)
  */
 
