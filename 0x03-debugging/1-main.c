@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * main - cause an infinity loop
  * Return: 0
