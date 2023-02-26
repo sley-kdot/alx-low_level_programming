@@ -8,23 +8,27 @@ int main(void)
 {
 	int i, j, k;
 
-	for (i = 0; a <= 7; i++)
+	for (i = 48; i < 58; i++)
 	{
-		for (j = i + 1; j <= 8; j++)
+		for (j = 49; j < 58; j++)
 		{
-			for (k = j + 1; k <= 9; k++)
+			for (k = 50; k < 58; k++)
 			{
-				putchar(i + '0');
-				putchar(j + '0');
-				putchar(k + '0');
-
-				if (i != 7 || j != 8 || c != 9)
+				if (k > j && j > i)
 				{
-					putchar(',');
+					putchar(i);
+					putchar(j);
+					putchar(k);
+				
+					if (i != 55 || j != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
-	}
+	}	
 	putchar('\n');
 
 	return (0);
