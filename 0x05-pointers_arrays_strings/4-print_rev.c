@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * ptiny_rev - function that prints a string, in reverse
+ * print_rev - function that prints a string, in reverse
  * @s: charac input
  */
 
@@ -15,7 +15,7 @@ void print_rev(char *s)
 	{
 		count++;
 	}
-	for (j = (count - 1); n >= 0; n--)
+	for (j = (count - 1); j >= 0; j--)
 	{
 		_putchar(s[n]);
 	}
