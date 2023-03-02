@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strncat - functions that copies a string
+ * *_strncpy - functions that copies a string
  * @dest: first character input
  * @src: second character input
  * @n: third input digit
@@ -10,17 +10,18 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i, j;
+	int i;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	for (i = 0; src[i] != '\0'; i++)
 	{
-	}
-
-	for (j = 0; j < n; j++)
-	{
-		dest[i + j] = src[co];
-		if (src[j] == '\0')
-			j = n;
+		if (i < n)
+		{
+			dest[i] = src[i];
+		}
+		while (i < n)
+		{
+			dest[i++] = '\0';
+		}
 	}
 
 	return (dest);
