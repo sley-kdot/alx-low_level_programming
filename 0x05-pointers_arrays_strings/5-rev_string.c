@@ -15,4 +15,5 @@ void rev_string(char *s)
 	{
 		printf("%c", s[i]);
 	}
+	_putchar('\n');
 }
