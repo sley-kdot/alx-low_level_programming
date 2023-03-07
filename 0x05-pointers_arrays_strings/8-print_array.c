@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_array - function thay prints n elements of an array of integer
  * @a: first input char
