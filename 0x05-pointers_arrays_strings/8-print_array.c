@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_array - function thay prints n elements of an array of integer
- * @a: first input char
+ * print_array - function that prints n elements of an array of integer
+ * @a: first input digit
  * @n: second inpu digit
  */
 
-void print_array(char *a, int n)
+void print_array(int *a, int n)
 {
 	int i;
 
@@ -14,9 +14,7 @@ void print_array(char *a, int n)
 	{
 		printf("%d", a[i]);
 		if (i != (n - 1))
-		{
-			printf(", ");
-		}
+			printf(", ");		}
 	}
 	_putchar('\n');
 }
