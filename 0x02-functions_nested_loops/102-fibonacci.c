@@ -19,7 +19,7 @@ int main(void)
 	while (count <= 50)
 	{
 		if (count == 50)
-			printf("%lu \n", fibonacci);
+			printf("%lu", fibonacci);
 		else
 			printf("%lu, ", fibonacci);
 
