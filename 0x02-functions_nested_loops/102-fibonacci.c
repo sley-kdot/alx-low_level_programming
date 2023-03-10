@@ -21,7 +21,7 @@ int main(void)
 		if (count == 50)
 			printf("%lu \n", fibonacci);
 		else
-			printf("%lu, \n", fibonacci);
+			printf("%lu, ", fibonacci);
 
 		first = second;
 		second = fibonacci;
