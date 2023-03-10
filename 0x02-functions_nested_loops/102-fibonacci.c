@@ -29,5 +29,6 @@ int main(void)
 		fibonacci = first + second;
 		count++;
 	}
+	putchar('\n');
 	return (0);
 }
