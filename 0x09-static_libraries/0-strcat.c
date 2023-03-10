@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _isupper - entry point
- * @c: input
- * Return: c
+ * *_strcat - entry point
+ * @dest: input
+ * @src: input
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
