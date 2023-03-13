@@ -3,7 +3,7 @@
 /**
  * print_array - function that prints n elements of an array of integer
  * @a: first input digit
- * @n: second inpu digit
+ * @n: second input digit
  */
 
 void print_array(int *a, int n)
@@ -14,7 +14,9 @@ void print_array(int *a, int n)
 	{
 		printf("%d", a[i]);
 		if (i != (n - 1))
-			printf(", ");		}
+		{
+			printf(", ");
+		}
 	}
-	_putchar('\n');
+	printf("\n");
 }
