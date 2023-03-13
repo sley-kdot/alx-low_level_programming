@@ -7,13 +7,17 @@
 
 void rev_string(char *s)
 {
-	int count, i;
+	int len = 0, i;
+	char store;
+	
+	len = strlen(s);
 
-	count = strlen(s);
-
-	for (i = (count - 1); i >= 0; i--)
+	for (i = 0; i < (len / 2); i++)
 	{
-		_putchar(s[i]);
+		store = s[i];
+		s[i] = s[len - 1 - i];
+		s[len - 1 - i] = store;
 	}
+	printf("%s", s);
 	_putchar('\n');
 }
