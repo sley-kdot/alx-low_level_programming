@@ -9,7 +9,7 @@ void rev_string(char *s)
 {
 	int len = 0, i;
 	char store;
-	
+
 	len = strlen(s);
 
 	for (i = 0; i < (len / 2); i++)
@@ -18,6 +18,5 @@ void rev_string(char *s)
 		s[i] = s[len - 1 - i];
 		s[len - 1 - i] = store;
 	}
-	printf("%s", s);
 	_putchar('\n');
 }
