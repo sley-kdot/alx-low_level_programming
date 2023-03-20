@@ -2,6 +2,11 @@
 #define _DOG_
 
 /**
+* dog_t -  Typedef for unsigned int
+*/
+typedef unsigned int u_int;
+
+/**
 * struct dog - struct that store info of a dog
 * @name: name of the dog
 * @age: age of the dog
