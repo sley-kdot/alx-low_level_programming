@@ -4,7 +4,7 @@
 /**
 * dog_t -  Typedef for unsigned int
 */
-typedef unsigned int u_int;
+typedef unsigned int dog_t;
 
 /**
 * struct dog - struct that store info of a dog
