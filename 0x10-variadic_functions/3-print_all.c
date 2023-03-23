@@ -7,6 +7,7 @@
 *
 * Return: void
 */
+
 void print_all(const char * const format, ...)
 {
 	int n = 0;
