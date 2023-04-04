@@ -8,7 +8,7 @@
 */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
-	listint_t *item, temp;
+	listint_t *item, *temp;
 
 	/* allocate memory space for the node */
 	item = malloc(sizeof(listint_t));
@@ -20,13 +20,13 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	item->n = n;
 	item->next = NULL;
 	temp = *head;
- 
+
 	if (*head == NULL)
 	{
 		*head = item;
 		return (item);
 	}
-	
+
 	/* traverse throught the list to get the address of the last node */
 	while (temp->next)
 		temp = temp->next;
