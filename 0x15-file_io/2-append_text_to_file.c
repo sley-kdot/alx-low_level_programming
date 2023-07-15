@@ -21,7 +21,7 @@ int append_text_to_file(const char *filename, char *text_content)
 		len++;
 
 	if (text_content != NULL)
-	{i
+	{
 		w_file = write(fd, text_content, len);
 		if (w_file == -1)
 			return (-1);
