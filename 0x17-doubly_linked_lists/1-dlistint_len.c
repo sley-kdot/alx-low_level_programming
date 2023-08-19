@@ -5,7 +5,7 @@
  * @h: head of the list
  * Return: lengtg of the list
  */
-size_t dlistint_len(const dlistint_t *h);
+size_t dlistint_len(const dlistint_t *h)
 {
 	size_t i = 0;
 
