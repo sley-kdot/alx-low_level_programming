@@ -27,7 +27,7 @@ void hash_table_print(const hash_table_t *ht)
 			printf("'%s': '%s'", temp->key, temp->value);
 			temp = temp->next;
 			if (temp != NULL)
-				printf(", "};
+				printf(", ");
 			tag = 1;
 		}
 		idx++;
