@@ -1,0 +1,4 @@
+# target: dependencies
+# commands to be executed
+all: main.c school.c
+	gcc main.c school.c -o school

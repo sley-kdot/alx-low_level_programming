@@ -1,0 +1,8 @@
+# variables
+CC = gcc
+SRC = main.c school.c
+
+# target: dependencies
+# command to be executed
+all: $(SRC)
+	$(CC) $(SRC) -o school
